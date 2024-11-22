@@ -54,15 +54,17 @@ SELECT * FROM users WHERE email = 'admin' OR '1'='1';
 
 This allows an attacker to bypass authentication and retrieve the first user record.
 
->> Screenshots of the SQL Injection in Action
+### Screenshots of the SQL Injection in Action
 
 Screenshot 1: Login Form Before SQL Injection.
   ![Login Form Before SQL Injection](assets/vulnerablebefore.png)
 
 Screenshot 2: ![Successful Login After SQL Injection](assets/vulnerableafter.png)
 
-Secure Code Snippet
+### Secure Code Snippet
 Here is the secure version of the login code using prepared statements:
+
+```php
 
 <?php
 session_start();
@@ -163,12 +165,11 @@ When the form is submitted, the malicious script will execute, triggering an ale
 ### Screenshots of the XSS Demonstration
 
 Screenshot 1: XSS Demo Form Before Injection.
-(assets/XSSbefore.png)
+![Form before Injection](assets/XSSbefore.png)
 
 Screenshot 2: Alert Triggered by XSS Injection.
-(assets/XSSafter.png)
+![XSS Alert Triggered](assets/XSSafter.png)
 
-(assets/XSSafter.png)
 
 ### Secure Code Snippet
 
