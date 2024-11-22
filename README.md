@@ -50,7 +50,7 @@ admin' OR '1'='1
 
 Expected SQL Query:
 
-SELECT * FROM users WHERE email = 'admin' OR '1'='1';
+SELECT * FROM users WHERE email = 'admin' OR '1'='1'; 
 
 This allows an attacker to bypass authentication and retrieve the first user record.
 
@@ -191,5 +191,5 @@ By using htmlspecialchars(), we can prevent XSS by converting special characters
 
 assets/SecureInput.png
 
-![Login Form Before SQL Injection](file:///C:\wamp64\www\sql-injection-xss-demo\assets\SecureInput.png)
+![Login Form Before SQL Injection](assets/SecureInput.png)
 # baze-project
