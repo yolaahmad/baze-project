@@ -42,8 +42,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
+```
 
-Demonstration of the Attack
+### Demonstration of the Attack
 To demonstrate the SQL injection vulnerability, use the following payload in the email field:
 
 admin' OR '1'='1
