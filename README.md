@@ -168,6 +168,8 @@ Screenshot 1: XSS Demo Form Before Injection.
 Screenshot 2: Alert Triggered by XSS Injection.
 (assets/XSSafter.png)
 
+(assets/XSSafter.png)
+
 ### Secure Code Snippet
 
 To prevent XSS, update the comment display to use htmlspecialchars():
@@ -188,8 +190,6 @@ To prevent XSS, update the comment display to use htmlspecialchars():
 By using htmlspecialchars(), we can prevent XSS by converting special characters in user input (such as < and >) to HTML entities (&lt; and &gt;). This way, any script tags are rendered as plain text rather than executed as HTML or JavaScript, ensuring the safety of the application from XSS attacks.
 
 ### Screenshot of secured input
-
-assets/SecureInput.png
 
 ![Login Form Before SQL Injection](assets/SecureInput.png)
 # baze-project
