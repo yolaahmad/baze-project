@@ -194,4 +194,4 @@ By using htmlspecialchars(), we can prevent XSS by converting special characters
 ### Screenshot of secured input
 
 ![Login Form Before SQL Injection](assets/SecureInput.png)
-# baze-project
+# Professional Diploma In CyberSecurity (Baze-project) Product of IDEAS/24/15429 (Ahmad Abdullahi Yola)
