@@ -54,7 +54,7 @@ $conn->close();
             
             <button type="submit">Register</button>
         </form>
-        <p>Already have an account? <a href="login.php">Log in here</a></p>
+        <p>Already have an account? <a href="login_vulnerable.php">Log in here</a></p>
     </div>
 
     <!-- Notification system script -->
